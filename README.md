@@ -10,3 +10,8 @@ If the age is less than 18, then it should return "Drink Coke"
 If the age is less than 21, then it should return "Drink Beer"
 If the age is less than 130, then it should return "Drink Whisky"
 Else return "Sorry. I can’t tell what drink because that age is incorrect!"
+
+## A note on the wording of this challenge
+
+This challenge is poorly worded. The way it is currently worded, any age under 130 would return "Drink Whisky!". I have assumed that
+the challenge was in fact to test for age ranges and proceeded on that assumption. 
