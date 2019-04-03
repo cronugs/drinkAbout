@@ -1,5 +1,5 @@
 function drinkAbout(age) {
-    this.returnValue = age;
+    this.returnValue = "Sorry> I can't tell you what drink because that age is incorrect!";
     switch (true) {
         case age < 0:
             returnValue = "That age is incorrect!";
@@ -13,6 +13,9 @@ function drinkAbout(age) {
         case age >= 19 && age <= 21:
             returnValue = "Drink Beer";
             break; 
+        case age >= 22 && age <= 130:
+            returnValue = "Drink Whisky";
+            break;     
         default:
             returnValue;
     }
