@@ -35,4 +35,11 @@ describe("drinkAbout", function() {
             expect(returnValue).toBe("Drink Whisky");  
         });
     });
+
+    describe("Test ages over 130", function() {
+        it("should return Sorry> I can't tell you what drink because that age is incorrect!", () => {
+            drinkAbout(150);
+            expect(returnValue).toBe("Sorry. I can't tell you what drink because that age is incorrect!");  
+        });
+    });
 });
