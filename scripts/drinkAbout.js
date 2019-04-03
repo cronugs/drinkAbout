@@ -9,7 +9,10 @@ function drinkAbout(age) {
             break;
         case age >= 14 && age <= 18:
             returnValue = "Drink Coke";
-            break;    
+            break;   
+        case age >= 19 && age <= 21:
+            returnValue = "Drink Beer";
+            break; 
         default:
             returnValue;
     }
