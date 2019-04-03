@@ -21,4 +21,11 @@ describe("drinkAbout", function() {
             expect(returnValue).toBe("Drink Coke");  
         });
     });
+
+    describe("Test range 18 - 21", function() {
+        it('should return Drink Toddy', () => {
+            drinkAbout(20);
+            expect(returnValue).toBe("Drink Beer");  
+        });
+    });
 });
