@@ -37,7 +37,7 @@ describe("drinkAbout", function() {
     });
 
     describe("Test ages over 130", function() {
-        it("should return Sorry> I can't tell you what drink because that age is incorrect!", () => {
+        it("should return Sorry. I can't tell you what drink because that age is incorrect!", () => {
             drinkAbout(150);
             expect(returnValue).toBe("Sorry. I can't tell you what drink because that age is incorrect!");  
         });

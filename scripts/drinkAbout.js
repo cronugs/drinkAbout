@@ -1,5 +1,5 @@
 function drinkAbout(age) {
-    this.returnValue = "Sorry> I can't tell you what drink because that age is incorrect!";
+    this.returnValue = "Sorry. I can't tell you what drink because that age is incorrect!";
     switch (true) {
         case age < 0:
             returnValue = "That age is incorrect!";
