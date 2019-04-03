@@ -16,16 +16,23 @@ describe("drinkAbout", function() {
     });
     
     describe("Test range 14 - 17", function() {
-        it('should return Drink Toddy', () => {
+        it('should return Drink Coke', () => {
             drinkAbout(16);
             expect(returnValue).toBe("Drink Coke");  
         });
     });
 
     describe("Test range 18 - 21", function() {
-        it('should return Drink Toddy', () => {
+        it('should return Drink Beer', () => {
             drinkAbout(20);
             expect(returnValue).toBe("Drink Beer");  
+        });
+    });
+
+    describe("Test range 22 - 130", function() {
+        it('should return Drink Whisky', () => {
+            drinkAbout(44);
+            expect(returnValue).toBe("Drink Whisky");  
         });
     });
 });
